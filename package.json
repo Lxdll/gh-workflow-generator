@@ -1,0 +1,15 @@
+{
+  "name": "gh-workflow-generator",
+  "version": "0.0.1",
+  "description": "generate github action workflow file",
+  "main": "index.js",
+  "bin": {
+    "gh-workflow-generator": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "github.com/Lxdll",
+  "license": "ISC"
+}
