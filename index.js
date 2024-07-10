@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = '.github/workflow/deploy.yaml'
+const filePath = '.github/workflows/deploy.yaml'
 
 const sourceFilePath = path.resolve(__dirname, filePath);
 const targetFilePath = path.resolve(process.cwd(), filePath); // 使用 process.cwd() 获取当前工作目录
